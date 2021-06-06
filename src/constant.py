@@ -1,0 +1,9 @@
+ERROR_CODE = 'ERROR_CODE'
+ERROR_MSG = 'ERROR_MESSAGE'
+REGISTRATION_NUMBER = 'registration_number'
+DRIVER_AGE = 'driver_age'
+DRIVING_AGE = 18
+REGISTRATION_NO_FORMAT = '^[A-Z]{2}[-][0-9]{2}[-][A-Z]{2}[-][0-9]{4}$'
+PARKING_CREATED = 'Created parking of %s slots'
+CAR_PARKED = 'Car with vehicle registration number \"%s\" has been parked at slot number %s'
+SLOT_EMPTY = 'Slot number %s vacated, the car with vehicle registration number %s left the space, the driver of the car was of age %s'
