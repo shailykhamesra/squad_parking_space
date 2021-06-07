@@ -27,3 +27,10 @@ python app.py input.txt  (There is a input.txt file already created for your eas
 python -m pytest -m parking_space (for running all the test cases)
 ```
 
+Overview of design - 
+1. For creating the user friendly enviorment, we need to process the input. This processing of the input does not limit us to case sensitivity.
+2. We can use any command line interface library for easing the process but I have created and used my own interface.
+3. All the top level functionalities are visible to the users but the real functioning behind them is all encapsulated.
+4. For easing the development process I have maintained not to use any hard coded values rather I have used constant file to have a single source of truth.
+5. For the error messages I have maintained a object with error message and code so that it becomes super easy to trace the error of a huge system.
+6. All the test are marker with the pytest marker so that on specifying one single marker we can run all relevant tests at one shot.
