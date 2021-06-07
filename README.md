@@ -15,11 +15,13 @@ There are few assumption I took while building this piece -
 7. On invalid slot and drivers age, registration number would show the error message.
 
 ***Requirement to run :***
+```
 Python >= 3.7
 pip install -r requirements.txt  (for running the test cases)
+```
 
 ***How to run - ***
-**Note - (use python or python3, pip or pip3 depending on your machine configuration)**
+Note - (use python or python3, pip or pip3 depending on your machine configuration)**
 ```
 python app.py input.txt  (There is a input.txt file already created for your ease)
 python -m pytest -m parking_space (for running all the test cases)
