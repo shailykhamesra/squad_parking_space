@@ -20,6 +20,8 @@ pip install -r requirements.txt  (for running the test cases)
 
 ***How to run - ***
 **Note - (use python or python3, pip or pip3 depending on your machine configuration)**
+```
 python app.py input.txt  (There is a input.txt file already created for your ease)
 python -m pytest -m parking_space (for running all the test cases)
+```
 
