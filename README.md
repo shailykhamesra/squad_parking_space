@@ -1,4 +1,4 @@
-#SquadStackParking
+@@SquadStackParking
 It is a parking space solution. The vehicles could be parked in the parking slots depending on the parking availability.
 Parking space takes care of allowing a parker to park the vehicle after registartion number and driving age validation.
 Parker is provided the nearest possible parking slot asuuming that the first one is the nearest one.
