@@ -1,4 +1,4 @@
-@@SquadStackParking
+**SquadStackParking**
 It is a parking space solution. The vehicles could be parked in the parking slots depending on the parking availability.
 Parking space takes care of allowing a parker to park the vehicle after registartion number and driving age validation.
 Parker is provided the nearest possible parking slot asuuming that the first one is the nearest one.
@@ -14,14 +14,12 @@ There are few assumption I took while building this piece -
 6. If parking slot is already empty and we try leave on the slot would result in error message.
 7. On invalid slot and drivers age, registration number would show the error message.
 
-
-
-Requirement to run :
-Python - >= 3.7
+***Requirement to run :***
+Python >= 3.7
 pip install -r requirements.txt  (for running the test cases)
 
-How to run - 
-* Note - (use python or python3, pip or pip3 depending on your machine configuration)
-python app.py input.txt  (There is a input.txt file already created for you ease)
-python -m pytest -m parking_space (for running all te test cases)
+***How to run - ***
+**Note - (use python or python3, pip or pip3 depending on your machine configuration)**
+python app.py input.txt  (There is a input.txt file already created for your ease)
+python -m pytest -m parking_space (for running all the test cases)
 
